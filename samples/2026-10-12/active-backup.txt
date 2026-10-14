@@ -1,0 +1,10 @@
+Active Backup for Business
+
+Task: Fileserver-Lab
+Device: fileserver-lab
+Backup type: PC/Server
+Status: Successful
+Start time: 2026-10-12 23:00:00
+End time: 2026-10-12 23:38:40
+Data size: 84.0 GB
+Message: Backup completed.

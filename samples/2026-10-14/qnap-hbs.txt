@@ -1,0 +1,11 @@
+Hybrid Backup Sync (HBS 3)
+
+Job name: Offsite-Photos
+Job type: Backup
+Status: Completed
+Local path: /Public/photos
+Remote destination: vault-lab.example.internal:/share/photos
+Start time: 2026-10-14 04:10:00
+End time: 2026-10-14 04:36:12
+Transferred: 8.6 GB
+Message: Sync finished.

@@ -1,0 +1,11 @@
+Veeam Backup & Replication
+
+Job: Nightly-VM-Backup
+Result: Failed
+Session start: 2026-10-13 22:00:04
+Session end: 2026-10-13 22:41:33
+
+Objects:
+vm-web-01 | Success | 11.9 GB | Processed
+vm-app-01 | Success | 9.2 GB | Processed
+vm-db-01 | Failed | 0 B | Production datastore is inaccessible

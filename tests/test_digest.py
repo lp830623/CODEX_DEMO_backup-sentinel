@@ -1,10 +1,9 @@
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from tests.support import event
-
 from backup_sentinel.digest import build_digest, streak_days
 from backup_sentinel.models import Severity, fingerprint_for
+from tests.support import event
 
 GENERATED = datetime(2026, 10, 14, 7, 15, tzinfo=ZoneInfo("UTC"))
 

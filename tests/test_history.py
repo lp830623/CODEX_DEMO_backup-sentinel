@@ -1,9 +1,8 @@
 from datetime import date, datetime
 
-from tests.support import event
-
 from backup_sentinel.history import HistoryStore
 from backup_sentinel.models import Severity
+from tests.support import event
 
 
 def test_roundtrip_and_replace(tmp_path) -> None:

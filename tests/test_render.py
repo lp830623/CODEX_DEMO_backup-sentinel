@@ -4,7 +4,6 @@ from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
 import pytest
-from tests.support import event
 
 from backup_sentinel.errors import BackupSentinelError
 from backup_sentinel.models import Digest, DigestItem, Severity
@@ -15,6 +14,7 @@ from backup_sentinel.render import (
     render_subject,
     render_text,
 )
+from tests.support import event
 
 
 def _sample_digest() -> Digest:

@@ -1,0 +1,17 @@
+From: nas-lab-01@example.internal
+To: ops@example.invalid
+Subject: Active Backup for Business task Fileserver-Lab completed with warnings
+Date: Tue, 13 Oct 2026 23:58:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Active Backup for Business
+
+Task: Fileserver-Lab
+Device: fileserver-lab
+Backup type: PC/Server
+Status: Warning
+Start time: 2026-10-13 23:00:00
+End time: 2026-10-13 23:41:18
+Data size: 86.2 GB
+Message: A volume was skipped because it was offline.

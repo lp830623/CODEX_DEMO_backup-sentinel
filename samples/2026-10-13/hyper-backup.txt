@@ -1,0 +1,10 @@
+Hyper Backup
+
+Task: Documents-Daily
+Backup destination: vault-lab.example.internal
+Status: Failed
+Start time: 2026-10-13 02:00:09
+End time: 2026-10-13 02:01:11
+Transferred size: 0 B
+Error code: 31
+Error: The backup destination is offline.

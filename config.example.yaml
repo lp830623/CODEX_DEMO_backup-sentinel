@@ -1,0 +1,38 @@
+# backup-sentinel example configuration.
+# Paths are resolved relative to this file.
+# ${VAR} and ${VAR:-default} expand from the environment when the file is loaded.
+# Copy to config.yaml and turn a delivery channel on when you want to send the digest.
+
+timezone: UTC
+
+inputs:
+  - path: samples
+    recursive: true
+
+history:
+  path: state/history.db
+  lookback_days: 7
+  chronic_after_days: 3
+
+ranking:
+  # A warning that stays non-ok for chronic_after_days is shown as critical.
+  escalate_chronic_warnings: true
+
+email:
+  enabled: false
+  smtp_host: "${SMTP_HOST:-localhost}"
+  smtp_port: "${SMTP_PORT:-587}"
+  smtp_username: "${SMTP_USERNAME:-}"
+  smtp_password: "${SMTP_PASSWORD:-}"
+  use_tls: true
+  use_ssl: false
+  from: "${SMTP_FROM:-sentinel@example.invalid}"
+  to: "${SMTP_TO:-ops@example.invalid}"
+  subject: "Backup digest {date}: {critical} critical, {warning} warning, {ok} ok"
+
+webhook:
+  enabled: false
+  url: "${WEBHOOK_URL:-https://hooks.example.invalid/backup-sentinel}"
+  timeout_seconds: 10
+  headers:
+    Authorization: "${WEBHOOK_TOKEN:-Bearer example-token}"

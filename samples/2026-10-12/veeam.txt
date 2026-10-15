@@ -1,0 +1,11 @@
+Veeam Backup & Replication
+
+Job: Nightly-VM-Backup
+Result: Failed
+Session start: 2026-10-12 22:00:05
+Session end: 2026-10-12 22:48:12
+
+Objects:
+vm-web-01 | Success | 12.1 GB | Processed
+vm-app-01 | Warning | 48.1 GB | Changed block tracking is disabled
+vm-db-01 | Failed | 0 B | Production datastore is inaccessible

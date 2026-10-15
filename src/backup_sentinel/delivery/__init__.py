@@ -1,0 +1,1 @@
+"""Outbound digest delivery."""

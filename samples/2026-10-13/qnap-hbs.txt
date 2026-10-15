@@ -1,0 +1,12 @@
+Hybrid Backup Sync (HBS 3)
+
+Job name: Offsite-Photos
+Job type: Backup
+Status: Failed
+Local path: /Public/photos
+Remote destination: vault-lab.example.internal:/share/photos
+Start time: 2026-10-13 04:10:00
+End time: 2026-10-13 04:12:06
+Transferred: 0 bytes
+Error code: NET_UNREACHABLE
+Message: Connection to the remote server failed.

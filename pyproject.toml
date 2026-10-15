@@ -41,6 +41,10 @@ backup_sentinel = ["py.typed"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+# The repo root must be importable when pytest is launched as a console
+# script. Otherwise ``from tests.support import event`` fails with
+# ModuleNotFoundError because the tests directory itself is what gets prepended.
+pythonpath = ["."]
 
 [tool.ruff]
 line-length = 100

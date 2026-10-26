@@ -1,0 +1,9 @@
+Snapshot Replication
+
+Replication task: Volume-Replica
+Source: volume1
+Destination: dr-lab.example.internal
+Status: Failed
+Start time: 2026-10-14 03:00:00
+End time: 2026-10-14 03:04:44
+Error: Network connection timed out while transferring the latest snapshot.

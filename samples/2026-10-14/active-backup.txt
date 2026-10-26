@@ -1,0 +1,10 @@
+Active Backup for Business
+
+Task: Fileserver-Lab
+Device: fileserver-lab
+Backup type: PC/Server
+Status: Warning
+Start time: 2026-10-14 23:00:00
+End time: 2026-10-14 23:44:02
+Data size: 88.4 GB
+Message: A volume was skipped because it was offline.

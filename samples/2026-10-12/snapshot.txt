@@ -1,0 +1,9 @@
+Snapshot Replication
+
+Replication task: Volume-Replica
+Source: volume1
+Destination: dr-lab.example.internal
+Status: Successful
+Start time: 2026-10-12 03:00:00
+End time: 2026-10-12 03:06:12
+Message: Replication completed.
